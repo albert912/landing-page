@@ -16,6 +16,7 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 15px 0px;
+
    
 }
 
@@ -35,8 +36,8 @@ header {
 }
 
 .two {
-    display: flex
-    
+    display: flex;
+    padding: 100px;
     
 
 
@@ -45,6 +46,9 @@ header {
 .text {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 215px;
+    
  
     
     
@@ -55,14 +59,29 @@ header {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    max-width: 500px;
 }
 
 .secondary {
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 470px;
+    margin-top: -50px;
+}
+
+button {
+    display: flex;
+   max-width: 120px;
+   padding: 5px;
+   justify-content: center;
+   align-items: center;
+   background-color: #3882F6;
+   color: white;
+   margin-top: -15px;
 }
 
 .placeholder {
-    margin-right: 250px;
+    margin-left: 150px;
+
     
 }
